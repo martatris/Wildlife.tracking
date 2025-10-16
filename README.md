@@ -127,8 +127,10 @@ You are free to use, modify, and distribute it with attribution.
 - R community for packages that power this analysis (`ggplot2`, `forecast`, `leaflet`, etc.)  
 - Contributors supporting open science in wildlife research
 
-👤 Author: Triston Aloyssius Marta 📧 tristonmarta@yahoo.com.sg 💼 Data Science and Statistics
-
+👤 Author
+Developed by: Triston Aloyssius Marta
+📧 tristonmarta@yahoo.com.sg
+💼 Data Science and Statistics
 
 
 
