@@ -125,4 +125,10 @@ You are free to use, modify, and distribute it with attribution.
 ## 💡 Acknowledgments
 - Movebank Data Repository for wildlife tracking datasets  
 - R community for packages that power this analysis (`ggplot2`, `forecast`, `leaflet`, etc.)  
-- Contributors supporting open science in wildlife research  
+- Contributors supporting open science in wildlife research
+
+👤 Author: Triston Aloyssius Marta 📧 tristonmarta@yahoo.com.sg 💼 Data Science and Statistics
+
+
+
+
