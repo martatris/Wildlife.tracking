@@ -1,4 +1,4 @@
-# 🦌 Wildlife Tracking Data Analysis
+# Wildlife Tracking Data Analysis
 
 A comprehensive R-based project for analyzing **wildlife GPS tracking data**, performing **Exploratory Data Analysis (EDA)**, **spatial clustering**, and **ARIMA forecasting** of animal movements.  
 This project uses **`ggplot2`**, **`dplyr`**, **`leaflet`**, and **`forecast`** to visualize animal migration patterns and predict future positions.
@@ -18,7 +18,7 @@ This project uses **`ggplot2`**, **`dplyr`**, **`leaflet`**, and **`forecast`** 
 
 ---
 
-## 🧠 Objectives
+## Objectives
 - Clean and process raw wildlife GPS data  
 - Explore animal movement patterns through EDA  
 - Cluster geographic coordinates to identify key habitat zones  
@@ -27,7 +27,7 @@ This project uses **`ggplot2`**, **`dplyr`**, **`leaflet`**, and **`forecast`** 
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 Make sure you have **R (≥ 4.0)** installed.  
 You’ll also need the following R packages:
@@ -41,7 +41,7 @@ install.packages(c(
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone the repository**
    ```bash
@@ -62,36 +62,36 @@ install.packages(c(
 
 5. **Check outputs**
    After execution, you’ll find:
-   - 📊 `wildlife_cleaned.csv` — cleaned and processed dataset  
-   - 📈 `daily_distance_summary.csv` — daily travel summaries  
-   - 📉 `forecast_results.csv` — ARIMA 24-hour forecast results  
-   - 🗺️ `arima_forecast.png` — saved movement forecast plot  
+   - `wildlife_cleaned.csv` — cleaned and processed dataset  
+   - `daily_distance_summary.csv` — daily travel summaries  
+   - `forecast_results.csv` — ARIMA 24-hour forecast results  
+   - `arima_forecast.png` — saved movement forecast plot  
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
-### 🧹 Data Cleaning
+### Data Cleaning
 - Handles missing coordinates and timestamps  
 - Normalizes column names for consistency  
 
-### 📊 Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 - Summary statistics of movement data  
 - Daily activity trends per animal  
 - Speed and distance distribution plots  
 
-### 🗺️ Spatial Clustering
+### Spatial Clustering
 - Uses **K-Means clustering** to identify core habitat zones  
 - Visualized with color-coded scatter plots and interactive maps  
 
-### 📈 ARIMA Forecasting
+### ARIMA Forecasting
 - Builds time-series models for latitude and longitude  
 - Predicts the **next 24 hours** of animal movement  
 - Automatically saves the forecast visualization as `arima_forecast.png`  
 
 ---
 
-## 🌍 Interactive Map
+## Interactive Map
 The script creates an interactive **Leaflet** map displaying:
 - Animal GPS positions  
 - Color-coded by individual ID  
@@ -99,7 +99,7 @@ The script creates an interactive **Leaflet** map displaying:
 
 ---
 
-## 📊 Example Output (ARIMA Forecast)
+## Example Output (ARIMA Forecast)
 ![ARIMA Forecast Example](arima_forecast.png)
 
 > Blue points = historical movement  
@@ -107,7 +107,7 @@ The script creates an interactive **Leaflet** map displaying:
 
 ---
 
-## 🧪 Customization
+## Customization
 
 You can easily modify:
 - The **number of clusters** (`k_clusters` in the script)
@@ -116,21 +116,10 @@ You can easily modify:
 
 ---
 
-## 🧾 License
-This project is released under the **MIT License**.  
-You are free to use, modify, and distribute it with attribution.
-
----
-
-## 💡 Acknowledgments
+## Acknowledgments
 - Movebank Data Repository for wildlife tracking datasets  
 - R community for packages that power this analysis (`ggplot2`, `forecast`, `leaflet`, etc.)  
 - Contributors supporting open science in wildlife research
-
-👤 Author
-Developed by: Triston Aloyssius Marta
-📧 tristonmarta@yahoo.com.sg
-💼 Data Science and Statistics
 
 
 
