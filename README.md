@@ -5,7 +5,7 @@ This project uses **`ggplot2`**, **`dplyr`**, **`leaflet`**, and **`forecast`** 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── migration_original.csv        # Input wildlife GPS data
 ├── wildlife_analysis.R           # Main analysis script
